@@ -8,7 +8,7 @@ namespace Modicron.Items
         public override void SetStaticDefaults()
         {
             // DisplayName.SetDefault("BasciSword"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-            Tooltip.SetDefault("Your mum STILL sucks testicles for money");
+            Tooltip.SetDefault("The Weapon of Lord Danicron of OLC");
         }
 
         public override void SetDefaults()
@@ -31,7 +31,7 @@ namespace Modicron.Items
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.WoodenChair, 42);
-            recipe.AddIngredient(ItemID.Wrench, 1);
+            //recipe.AddIngredient(ItemID.Wrench, 1);
             recipe.AddTile(TileID.WorkBenches);
             recipe.SetResult(this);
             recipe.AddRecipe();

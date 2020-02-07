@@ -14,10 +14,10 @@ namespace Modicron.Items
         public override void SetDefaults()
         {
             item.damage = 15;
-            item.melee = true;
+            item.thrown = true;
             item.width = 40;
             item.height = 40;
-            item.useTime = 8;
+            item.useTime = 2;
             item.useAnimation = 1;
             item.useStyle = 1;
             item.knockBack = 3;
@@ -25,7 +25,9 @@ namespace Modicron.Items
             item.rare = 3;
             item.UseSound = SoundID.Item1;
             item.autoReuse = true;
-            item.UseNoGraphic = true;
+            item.noUseGraphic = true;
+            item.shoot = 106;
+            item.shootSpeed = 15;
         }
 
         public override void AddRecipes()
@@ -38,4 +40,6 @@ namespace Modicron.Items
             recipe.AddRecipe();
         }
     }
+
+    
 }
