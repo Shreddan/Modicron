@@ -15,16 +15,16 @@ namespace Modicron.Items
         {
             item.damage = 25;
             item.melee = true;
-            item.width = 50;
-            item.height = 50;
-            item.useTime = 2;
+            item.width = 100;
+            item.height = 100;
+            item.useTime = 120;
             item.useAnimation = 1;
             item.useStyle = 3;
             item.knockBack = 1;
             item.value = 1;
             item.rare = 3;
             item.UseSound = SoundID.Item1;
-            item.autoReuse = true;
+            item.autoReuse = false;
 
 
         }

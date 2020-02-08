@@ -27,7 +27,7 @@ namespace Modicron.Items
             item.autoReuse = true;
             item.noUseGraphic = true;
             item.shoot = 93;
-            Items.shootSpeed = 15;
+            item.shootSpeed = 15;
             
         }
 
