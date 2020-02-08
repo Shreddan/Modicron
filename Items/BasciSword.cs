@@ -1,3 +1,7 @@
+using System;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -8,7 +12,7 @@ namespace Modicron.Items
 		public override void SetStaticDefaults() 
 		{
 			// DisplayName.SetDefault("BasciSword"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-			Tooltip.SetDefault("Your mum sucks testicles for money");
+			Tooltip.SetDefault("Its a basic sword but a bit wonky");
 		}
 
 		public override void SetDefaults() 

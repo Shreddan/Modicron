@@ -1,4 +1,8 @@
-﻿using Terraria.ID;
+﻿using System;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace Modicron.Items
@@ -25,6 +29,8 @@ namespace Modicron.Items
             item.rare = 5;
             item.UseSound = SoundID.Item1;
             item.autoReuse = true;
+            item.shoot = mod.ProjectileType("Binary");
+            item.shootSpeed = 10;
         }
 
         public override void AddRecipes()

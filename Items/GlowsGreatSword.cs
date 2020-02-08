@@ -1,3 +1,7 @@
+using System;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -25,7 +29,7 @@ namespace Modicron.Items
 			item.rare = -12;
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
-			item.shoot = 660;
+			item.shoot = mod.ProjectileType("GlowsProjectile");
 			item.shootSpeed = 20;
 		    
 		}
